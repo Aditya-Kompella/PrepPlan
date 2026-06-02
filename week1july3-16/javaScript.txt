@@ -1,0 +1,33 @@
+# JavaScript Topics (Very Important)
+
+### Closures
+
+### Hoisting
+
+### Scope Chain
+
+### Event Loop
+
+### Microtasks vs Macrotasks
+
+### Prototype Inheritance
+
+### this keyword
+
+### Call Apply Bind
+
+### Currying
+
+### Debounce
+
+### Throttle
+
+### Promise
+
+### Async/Await
+
+### Memory Leaks
+
+### Garbage Collection
+
+I would expect more questions here than on DSA.

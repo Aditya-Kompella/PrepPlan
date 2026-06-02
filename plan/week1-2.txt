@@ -1,3 +1,4 @@
+week 1-2 july 3rd to july 16
 ### Weeks 1–2
 
 * JavaScript Deep Dive
