@@ -1,0 +1,48 @@
+Node.js Advanced
+- Event Loop Deep Dive
+- Cluster Module
+- Worker Threads
+- Streams
+- Memory Management
+- Error Handling
+- Authentication
+- JWT
+- Refresh Token
+- Rate Limiting
+- Redis Caching
+- Queue Systems
+- Logging
+- Monitoring
+
+Jasmine/Karma
+- describe
+- it
+- beforeEach
+- afterEach
+- spyOn
+- Mock Service
+- TestBed
+- Component Testing
+- Service Testing
+
+MongoDB Optimization
+- Indexing
+- Schema Design
+- Query Optimization
+- Aggregation Framework
+- Transactions
+- Replication
+- Sharding
+- Performance tuning
+
+10 DSA Problems
+- Top K Frequent Elements
+- Subarray Sum Equals K
+- Longest Consecutive Sequence
+- Valid Parentheses
+- Min Stack
+- Daily Temperatures
+- Binary Search
+- Search Rotated Array
+- Find Peak Element
+- Koko Eating Bananas

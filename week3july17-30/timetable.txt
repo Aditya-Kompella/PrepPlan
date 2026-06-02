@@ -1,0 +1,17 @@
+July 17-30 2026
+Week 3-4: Node.js Advanced + Jasmine + MongoDB Optimization + 10 DSA Problems
+
+Day 1 (Jul 17): Node.js event loop deep dive, async internals
+Day 2 (Jul 18): Node.js streams, buffers, readable/writable/duplex
+Day 3 (Jul 19): Cluster module, worker threads, scaling Node processes
+Day 4 (Jul 20): Error handling, process lifecycle, memory management
+Day 5 (Jul 21): Authentication, JWT, refresh token flow
+Day 6 (Jul 22): Rate limiting, logging, monitoring
+Day 7 (Jul 23): Redis caching, queue systems, Node performance
+Day 8 (Jul 24): Jasmine basics: describe, it, beforeEach, afterEach
+Day 9 (Jul 25): Jasmine/Karma advanced: spyOn, mocks, TestBed
+Day 10 (Jul 26): Component testing, service testing, test structure
+Day 11 (Jul 27): MongoDB indexing, schema design, query tuning
+Day 12 (Jul 28): MongoDB aggregation, transactions, replication/sharding
+Day 13 (Jul 29): Review Node + Jasmine + MongoDB concepts
+Day 14 (Jul 30): Mock practice, revision, note consolidation

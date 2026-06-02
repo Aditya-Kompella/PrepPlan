@@ -1,0 +1,17 @@
+July 3-16 2026
+Week 1-2: JavaScript Deep Dive + Angular Architecture + 10 DSA Problems
+
+Day 1 (Jul 3): Closures, hoisting, scope chain
+Day 2 (Jul 4): Event loop, microtasks vs macrotasks
+Day 3 (Jul 5): Prototype inheritance, `this`, call/apply/bind
+Day 4 (Jul 6): Currying, debounce, throttle
+Day 5 (Jul 7): Promise, async/await
+Day 6 (Jul 8): Memory leaks, garbage collection
+Day 7 (Jul 9): Angular feature modules, core module, shared module
+Day 8 (Jul 10): Change detection, OnPush, signals
+Day 9 (Jul 11): Lazy loading, `trackBy`, performance patterns
+Day 10 (Jul 12): RxJS basics: Observable, Subject, BehaviorSubject
+Day 11 (Jul 13): RxJS operators: switchMap, mergeMap, concatMap, forkJoin
+Day 12 (Jul 14): State management: NgRx, Component Store
+Day 13 (Jul 15): Advanced Angular: dynamic components, standalone components, SSR/hydration
+Day 14 (Jul 16): DSA review + solve 10 problems, revise JS and Angular notes

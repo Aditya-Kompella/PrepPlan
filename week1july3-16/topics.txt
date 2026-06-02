@@ -1,0 +1,45 @@
+JavaScript Deep Dive
+- Closures
+- Hoisting
+- Scope Chain
+- Event Loop
+- Microtasks vs Macrotasks
+- Prototype Inheritance
+- `this` keyword
+- `call`, `apply`, `bind`
+- Currying
+- Debounce
+- Throttle
+- Promise
+- Async/Await
+- Memory Leaks
+- Garbage Collection
+
+Angular Architecture
+- Feature Modules
+- Core Module
+- Shared Module
+- Change Detection
+- OnPush
+- Signals
+- Lazy Loading
+- `trackBy`
+- RxJS: Observable, Subject, BehaviorSubject
+- RxJS: switchMap, mergeMap, concatMap, forkJoin
+- State Management: NgRx, Component Store
+- Dynamic Components
+- Standalone Components
+- SSR
+- Hydration
+
+DSA Problems
+- Two Sum
+- Maximum Subarray
+- Product of Array Except Self
+- Best Time to Buy Stock
+- Merge Intervals
+- Valid Anagram
+- Longest Substring Without Repeating Characters
+- Group Anagrams
+- Longest Palindrome
+- Minimum Window Substring
