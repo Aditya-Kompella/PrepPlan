@@ -1,0 +1,311 @@
+### Revised Weightage
+
+| Area                            | Weight |
+| ------------------------------- | ------ |
+| Angular + Node.js               | 40%    |
+| System Design                   | 25%    |
+| JavaScript/TypeScript Deep Dive | 15%    |
+| DSA                             | 10%    |
+| Testing (Jasmine/Karma)         | 5%     |
+| GenAI                           | 5%     |
+
+---
+
+# DSA: Reduce from 55 to 30 Problems
+
+For a 6+ YOE Deloitte role, I'd focus on quality over quantity.
+
+### Arrays (5)
+
+* Two Sum
+* Maximum Subarray
+* Product of Array Except Self
+* Best Time to Buy Stock
+* Merge Intervals
+
+### Strings (5)
+
+* Valid Anagram
+* Longest Substring Without Repeating Characters
+* Group Anagrams
+* Longest Palindrome
+* Minimum Window Substring
+
+### Hashing (5)
+
+* Top K Frequent Elements
+* Subarray Sum Equals K
+* Longest Consecutive Sequence
+* LRU Cache
+* Frequency Counter problems
+
+### Stack/Queue (5)
+
+* Valid Parentheses
+* Min Stack
+* Daily Temperatures
+* Monotonic Stack basics
+* Sliding Window Maximum
+
+### Trees (5)
+
+* Maximum Depth
+* BFS Traversal
+* DFS Traversal
+* Lowest Common Ancestor
+* Level Order Traversal
+
+### Binary Search (5)
+
+* Binary Search
+* Search Rotated Array
+* Find Peak Element
+* Koko Eating Bananas
+* Capacity To Ship Packages
+
+---
+
+# JavaScript Topics (Very Important)
+
+### Closures
+
+### Hoisting
+
+### Scope Chain
+
+### Event Loop
+
+### Microtasks vs Macrotasks
+
+### Prototype Inheritance
+
+### this keyword
+
+### Call Apply Bind
+
+### Currying
+
+### Debounce
+
+### Throttle
+
+### Promise
+
+### Async/Await
+
+### Memory Leaks
+
+### Garbage Collection
+
+I would expect more questions here than on DSA.
+
+---
+
+# Angular Topics (Senior Level)
+
+### Architecture
+
+* Feature Modules
+* Core Module
+* Shared Module
+
+### Performance
+
+* Change Detection
+* OnPush
+* Signals
+* Lazy Loading
+* TrackBy
+
+### RxJS
+
+* Observable
+* Subject
+* BehaviorSubject
+* switchMap
+* mergeMap
+* concatMap
+* forkJoin
+
+### Security
+
+* XSS
+* Sanitization
+* JWT Flow
+
+### State Management
+
+* NgRx
+* Component Store
+
+### Advanced
+
+* Dynamic Components
+* Standalone Components
+* SSR
+* Hydration
+
+---
+
+# Node.js Topics (Senior Level)
+
+### Event Loop Deep Dive
+
+### Cluster Module
+
+### Worker Threads
+
+### Streams
+
+### Memory Management
+
+### Error Handling
+
+### Authentication
+
+### JWT
+
+### Refresh Token
+
+### Rate Limiting
+
+### Redis Caching
+
+### Queue Systems
+
+### Logging
+
+### Monitoring
+
+---
+
+# Jasmine/Karma
+
+Not huge weightage but know:
+
+* describe
+* it
+* beforeEach
+* afterEach
+* spyOn
+* Mock Service
+* TestBed
+* Component Testing
+* Service Testing
+
+---
+
+# System Design (Most Important Difference)
+
+For a 6+ YOE candidate, this can decide the interview.
+
+### Low-Level Design
+
+* Parking Lot
+* Library System
+* ATM Design
+* Elevator Design
+
+### High-Level Design
+
+* URL Shortener
+* WhatsApp
+* Notification Service
+* E-commerce Cart
+* Chat System
+
+### Concepts
+
+* Caching
+* Redis
+* Load Balancer
+* Horizontal Scaling
+* Vertical Scaling
+* Database Sharding
+* Replication
+* CAP Theorem
+* API Gateway
+
+---
+
+# GenAI (Deloitte specifically mentioned it)
+
+Know:
+
+### LLM Basics
+
+* GPT
+* Gemini
+* Claude
+
+### Prompt Engineering
+
+### Embeddings
+
+### Vector Database
+
+### RAG
+
+### AI Agents
+
+### MCP Basics
+
+### Function Calling
+
+### Build One Demo
+
+Angular UI + Node Backend + Gemini/OpenAI integration.
+
+---
+
+# 8-Week Plan for 6+ YOE
+
+### Weeks 1–2
+
+* JavaScript Deep Dive
+* Angular Architecture
+* 10 DSA Problems
+
+### Weeks 3–4
+
+* Node.js Advanced
+* Jasmine
+* MongoDB Optimization
+* 10 DSA Problems
+
+### Weeks 5–6
+
+* System Design
+* Redis
+* Caching
+* Security
+* 10 DSA Problems
+
+### Week 7
+
+* GenAI
+* RAG
+* AI Integration Project
+
+### Week 8
+
+* Mock Interviews
+* Project Revision
+* Resume Review
+* Behavioral Questions
+
+---
+
+For your profile specifically (MEAN stack developer with strong JavaScript), I'd spend **more time on Angular architecture, Node internals, system design, and JavaScript concepts** than on grinding LeetCode. Deloitte is far more likely to ask:
+
+> "Why did you choose BehaviorSubject here?"
+>
+> "How would you scale this application to 1 lakh users?"
+>
+> "Explain Angular change detection."
+>
+> "How does the Node.js event loop work?"
+>
+> "How would you design a notification service?"
+
+than to ask a hard dynamic-programming problem.

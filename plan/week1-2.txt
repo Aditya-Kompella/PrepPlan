@@ -1,0 +1,5 @@
+### Weeks 1–2
+
+* JavaScript Deep Dive
+* Angular Architecture
+* 10 DSA Problems
