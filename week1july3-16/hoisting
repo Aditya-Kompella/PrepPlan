@@ -1,0 +1,22 @@
+I think of hoisting as JavaScript's two-phase execution model.
+First, the engine creates the execution context and allocates memory for declarations.
+Then it executes the code.
+Hoisting is really a side effect of that creation phase.
+
+In _Namaste JavaScript Ep. 3_, _Akshay Saini_ defines **hoisting** as a phenomenon in _JavaScript_ where you can access variables and functions even before they are initialized in the code, without triggering an error (3:02).
+
+### Why Hoisting Happens
+
+Hoisting is not magic; it occurs due to the way the **Execution Context** is created in two phases (4:44):
+
+1.  **Memory Allocation Phase (Phase 1):** Even before a single line of code is executed, the _JavaScript_ engine scans your code and allocates memory to all variables and functions (5:27).
+    - **Variables declared with `var`:** These are allocated memory and assigned a special placeholder value called `undefined` (7:10).
+    - **Function declarations:** The entire function code is stored in the allocated memory, allowing you to invoke the function anywhere in your program (7:34).
+2.  **Code Execution Phase (Phase 2):** The code runs line-by-line. Variables are assigned their actual values only when the engine reaches those specific lines (8:01).
+
+### Key Nuances
+
+- **`undefined` vs. `not defined`:** If you try to access a `var` variable before its assignment, you get `undefined` (2:12). However, if a variable has not been declared at all in the program, you will get a `ReferenceError` saying it is `not defined` (9:55).
+- **Function Expressions & Arrow Functions:** If you store a function in a variable (e.g., `var getname = () => {...}`), the variable `getname` is treated like any other variable. It gets `undefined` during the memory phase, not the function itself. Attempting to invoke it before assignment will result in a `TypeError` (10:51).
+
+**Interview Tip:** When asked about hoisting, do not simply say "the code is moved to the top." Instead, explain the **Memory Allocation Phase** of the _Execution Context_ to demonstrate a deep understanding of how the _JavaScript_ engine works under the hood (13:37).

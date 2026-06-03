@@ -1,0 +1,25 @@
+https://www.youtube.com/watch?v=uH-tVP8MUs8
+
+This video from the _Namaste JavaScript_ series covers the core concepts of **Scope**, **Lexical Environment**, and the **Scope Chain**. Below are the key notes and takeaways:
+
+**1. Understanding Scope (0:27 - 3:31)**
+
+- **Scope** refers to where you can access a specific variable or function in your code.
+- When you try to access a variable, the JavaScript engine first looks in the **local memory space** of the current execution context.
+
+**2. What is a Lexical Environment? (7:09 - 10:41)**
+
+- A **Lexical Environment** is created whenever an execution context is created.
+- It consists of two parts:
+  - The **local memory** of the current context.
+  - A **reference** to the lexical environment of its **parent**.
+- **Lexical** means "in hierarchy" or "in sequence." A function is _lexically_ inside another if it is physically defined within that parent function in the code.
+
+**3. The Scope Chain (13:10 - 14:15)**
+
+- The **Scope Chain** is the mechanism the JS engine uses to find variables. If a variable isn't found in the local memory, the engine follows the reference to the parent's lexical environment and continues searching up the chain.
+- If the chain is exhausted (reaches the global level and then `null`), the engine throws a "not defined" error.
+
+**4. Visualizing in the Browser (15:27 - 18:23)**
+
+- Using the browser's debugger (Call Stack), you can see how nested functions maintain references to their parent scopes, which forms the basis for **closures** (a concept to be explored further in later videos).
