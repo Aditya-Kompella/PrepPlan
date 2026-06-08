@@ -1,0 +1,622 @@
+Perfect. Since you've already completed:
+
+✅ JavaScript Deep Dive (Closures, Event Loop, Promises, Hoisting, etc.)
+
+✅ Angular Architecture (Modules, Services, DI, Routing, etc.)
+
+❌ DSA not completed
+
+We'll restart Week 1 and Week 2 with a more realistic schedule aimed at Deloitte + Wells Fargo + JPMC + GCCs. Assuming you're working full-time and can dedicate 2 hours/day on weekdays and 4 hours on weekends.
+
+
+---
+
+WEEK 1
+
+Goal: Finish DSA Foundations + Angular RxJS + Build Authentication Flow
+
+Monday
+
+DSA (45 mins)
+
+Two Sum
+
+Brute Force
+
+HashMap solution
+
+Time Complexity
+
+
+Revision
+
+Object vs Map
+
+Set
+
+
+Angular (75 mins)
+
+Observables
+
+Observable
+
+Subscription
+
+Unsubscribe
+
+Async Pipe
+
+
+Practice
+
+Create an Observable and consume data in component.
+
+
+---
+
+Tuesday
+
+DSA
+
+Best Time to Buy and Sell Stock
+
+Concept:
+
+Sliding Window
+
+
+Angular
+
+Subjects
+
+Subject
+
+BehaviorSubject
+
+ReplaySubject
+
+
+Understand:
+
+When to use BehaviorSubject in shared services.
+
+
+Practice
+
+Create LoginService using BehaviorSubject.
+
+
+---
+
+Wednesday
+
+DSA
+
+Contains Duplicate
+
+Concept:
+
+Set
+
+
+Angular
+
+RxJS Operators
+
+Learn:
+
+map
+
+filter
+
+tap
+
+
+Practice
+
+Transform API data.
+
+
+---
+
+Thursday
+
+DSA
+
+Maximum Subarray
+
+Concept:
+
+Kadane's Algorithm
+
+
+Angular
+
+Higher Order Mapping
+
+Learn:
+
+switchMap
+
+
+Understand:
+
+Why switchMap is used in HTTP requests.
+
+
+Practice
+
+Search API with debounce.
+
+
+---
+
+Friday
+
+DSA
+
+Move Zeroes
+
+Concept:
+
+Two Pointer
+
+
+Angular
+
+Learn:
+
+mergeMap
+
+concatMap
+
+
+Difference between:
+
+switchMap
+
+mergeMap
+
+concatMap
+
+
+
+---
+
+Saturday (4 hrs)
+
+DSA (2 hrs)
+
+Solve:
+
+1. Majority Element
+
+
+2. Missing Number
+
+
+3. Merge Sorted Array
+
+
+
+Understand complexity.
+
+
+---
+
+Angular (2 hrs)
+
+Authentication
+
+Learn:
+
+JWT
+
+LocalStorage
+
+Auth Service
+
+HTTP Interceptor
+
+
+Build:
+
+Login API flow.
+
+
+
+---
+
+Sunday (4 hrs)
+
+DSA Revision (1 hr)
+
+Revise all problems solved this week.
+
+
+---
+
+Angular (3 hrs)
+
+Route Guards
+
+Learn:
+
+CanActivate
+
+CanDeactivate
+
+
+Build:
+
+Protected Dashboard.
+
+
+---
+
+End of Week 1 Target
+
+DSA
+
+8 Problems:
+
+1. Two Sum
+
+
+2. Best Time to Buy Stock
+
+
+3. Contains Duplicate
+
+
+4. Maximum Subarray
+
+
+5. Move Zeroes
+
+
+6. Majority Element
+
+
+7. Missing Number
+
+
+8. Merge Sorted Array
+
+
+
+
+---
+
+Angular
+
+Completed:
+
+✓ Observable
+
+✓ Subject
+
+✓ BehaviorSubject
+
+✓ ReplaySubject
+
+✓ map
+
+✓ filter
+
+✓ tap
+
+✓ switchMap
+
+✓ mergeMap
+
+✓ concatMap
+
+✓ JWT
+
+✓ Interceptors
+
+✓ Route Guards
+
+
+---
+
+WEEK 2
+
+Goal: Angular Performance + Node Fundamentals + More DSA
+
+
+---
+
+Monday
+
+DSA
+
+Valid Anagram
+
+Concept: HashMap
+
+Angular
+
+Change Detection
+
+Learn:
+
+Default strategy
+
+OnPush strategy
+
+
+
+---
+
+Tuesday
+
+DSA
+
+Valid Palindrome
+
+Concept: Two Pointer
+
+Angular
+
+TrackBy
+
+Understand:
+
+Why ngFor rerenders.
+
+
+Practice: Optimize list rendering.
+
+
+---
+
+Wednesday
+
+DSA
+
+Longest Common Prefix
+
+Concept: String manipulation
+
+Node.js
+
+Event Loop
+
+Learn:
+
+Call Stack
+
+Callback Queue
+
+Event Loop
+
+
+Understand deeply.
+
+
+---
+
+Thursday
+
+DSA
+
+Reverse String
+
+Node.js
+
+Promises
+
+Async/Await
+
+Microtask Queue
+
+
+---
+
+Friday
+
+DSA
+
+Longest Substring Without Repeating Characters
+
+Concept: Sliding Window
+
+Node.js
+
+Middleware
+
+Types:
+
+Application middleware
+
+Router middleware
+
+
+Build: Logger middleware.
+
+
+---
+
+Saturday (4 hrs)
+
+DSA (2 hrs)
+
+Solve:
+
+1. Group Anagrams
+
+
+2. First Unique Character
+
+
+3. Roman To Integer
+
+
+
+
+---
+
+Node.js (2 hrs)
+
+REST API
+
+Build:
+
+CRUD API
+
+Using:
+
+Express
+
+Router
+
+Controller
+
+Service pattern
+
+
+
+---
+
+Sunday (4 hrs)
+
+Angular (2 hrs)
+
+Learn:
+
+Signals
+
+Lazy Loading
+
+
+
+---
+
+Node.js (2 hrs)
+
+Error Handling
+
+Custom Middleware
+
+Global Error Handler
+
+
+---
+
+End of Week 2 Target
+
+DSA (16 Problems Total)
+
+Arrays:
+
+Two Sum
+
+Best Time to Buy Stock
+
+Contains Duplicate
+
+Maximum Subarray
+
+Move Zeroes
+
+Majority Element
+
+Missing Number
+
+Merge Sorted Array
+
+
+Strings:
+
+Valid Anagram
+
+Valid Palindrome
+
+Longest Common Prefix
+
+Reverse String
+
+Longest Substring Without Repeating Characters
+
+Group Anagrams
+
+First Unique Character
+
+Roman To Integer
+
+
+
+---
+
+Angular
+
+✓ Change Detection
+
+✓ OnPush
+
+✓ TrackBy
+
+✓ Signals
+
+✓ Lazy Loading
+
+
+---
+
+Node.js
+
+✓ Event Loop
+
+✓ Async/Await
+
+✓ Middleware
+
+✓ Express Architecture
+
+✓ REST APIs
+
+✓ Error Handling
+
+
+---
+
+Rule for these two weeks
+
+DSA
+
+Don't memorize solutions.
+
+For every problem ask:
+
+1. Brute force approach?
+
+
+2. Better approach?
+
+
+3. Time complexity?
+
+
+4. Space complexity?
+
+
+5. Can I explain it in an interview?
+
+
+
+Angular/Node
+
+Don't just read.
+
+Implement every topic inside one project:
+
+> Employee Management System
+
+
+
+and keep enhancing it week after week.
+
+This foundation will make Weeks 3–16 much easier and will directly support interviews at Deloitte, Wells Fargo, JPMorgan Chase, Fidelity, HSBC, and other GCCs.
