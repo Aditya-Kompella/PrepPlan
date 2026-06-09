@@ -1,12 +1,12 @@
 July 3-16 2026
 Week 1-2: JavaScript Deep Dive + Angular Architecture + 10 DSA Problems
 
-Day 1 (Jul 3): Closures, hoisting, scope chain
-Day 2 (Jul 4): Event loop, microtasks vs macrotasks
-Day 3 (Jul 5): Prototype inheritance, `this`, call/apply/bind
-Day 4 (Jul 6): Currying, debounce, throttle
-Day 5 (Jul 7): Promise, async/await
-Day 6 (Jul 8): Memory leaks, garbage collection
+Day 1 (Jul 3): Closures-done, hoisting-done, scope chain - done
+Day 2 (Jul 4): Event loop-done, microtasks vs macrotasks - done
+Day 3 (Jul 5): Prototype inheritance - done , `this`, call/apply/bind -done
+Day 4 (Jul 6): Currying, debounce -done, throttle -done
+Day 5 (Jul 7): Promise, async/await -done
+Day 6 (Jul 8): Memory leaks, garbage collection 
 Day 7 (Jul 9): Angular feature modules, core module, shared module
 Day 8 (Jul 10): Change detection, OnPush, signals
 Day 9 (Jul 11): Lazy loading, `trackBy`, performance patterns
