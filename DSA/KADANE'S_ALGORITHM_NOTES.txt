@@ -1,0 +1,204 @@
+# KADANE'S ALGORITHM NOTES
+
+## Core Idea
+
+At every index ask:
+
+**Should I continue the previous subarray or start a new subarray from here?**
+
+---
+
+## Maximum Subarray (LeetCode 53)
+
+### State Variables
+
+currentSum = Maximum sum ending at current index
+
+maxSum = Maximum sum seen so far
+
+---
+
+### Algorithm
+
+1. Initialize
+
+currentSum = nums[0]
+
+maxSum = nums[0]
+
+2. For each element from index 1
+
+currentSum = max(
+current element,
+currentSum + current element
+)
+
+maxSum = max(
+maxSum,
+currentSum
+)
+
+3. Return maxSum
+
+---
+
+### Meaning
+
+currentSum
+
+→ Best subarray ending exactly at i
+
+maxSum
+
+→ Best subarray seen till now
+
+---
+
+### Formula
+
+currentSum = max(
+nums[i],
+currentSum + nums[i]
+)
+
+maxSum = max(
+maxSum,
+currentSum
+)
+
+---
+
+### Mental Question
+
+Should I continue the previous subarray?
+
+OR
+
+Should I start a new subarray from here?
+
+---
+
+# Maximum Product Subarray (LeetCode 152)
+
+## Main Insight
+
+Negative × Negative = Positive
+
+Therefore,
+
+Worst product till yesterday
+
+can become
+
+Best product today.
+
+Because of this we must track:
+
+1. Maximum product ending at i
+
+2. Minimum product ending at i
+
+---
+
+## State Variables
+
+max
+
+= largest product ending at current index
+
+min
+
+= smallest product ending at current index
+
+result
+
+= largest product seen so far
+
+---
+
+## Important Principle
+
+Today's values must be computed using yesterday's values.
+
+Save:
+
+oldMax = max
+
+oldMin = min
+
+before updating.
+
+---
+
+## Symmetry Principle
+
+For both max and min, use the same three candidates:
+
+1. Current number
+
+2. Current number × oldMax
+
+3. Current number × oldMin
+
+max picks the largest.
+
+min picks the smallest.
+
+---
+
+## Formula
+
+max = max(
+nums[i],
+nums[i] × oldMax,
+nums[i] × oldMin
+)
+
+min = min(
+nums[i],
+nums[i] × oldMax,
+nums[i] × oldMin
+)
+
+result = max(
+result,
+max
+)
+
+---
+
+## Mental Question
+
+If current number is negative,
+
+can yesterday's worst product become today's best product?
+
+YES.
+
+Therefore never discard min.
+
+---
+
+## Common Mistakes
+
+❌ Reset when number becomes negative.
+
+❌ Update max before saving old max.
+
+❌ Update min and then use updated min for max.
+
+❌ Forget to include current number itself.
+
+❌ Treat max and min differently.
+
+---
+
+## Golden Rule
+
+Max and Min are mirror images.
+
+The only difference:
+
+max chooses the largest.
+
+min chooses the smallest.
