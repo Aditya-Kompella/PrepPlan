@@ -1,0 +1,273 @@
+# Two Pointers Notes (JavaScript)
+
+## What is Two Pointers?
+
+Two pointers means using two variables that point to positions in an array, string, or linked list and moving them intelligently instead of using nested loops.
+
+Goal:
+
+- Reduce O(n²) solutions to O(n).
+- Modify arrays in-place.
+- Find pairs or ranges efficiently.
+
+---
+
+# Mental Model
+
+> One pointer explores, the other remembers where work should be done.
+
+---
+
+# Types of Two Pointers
+
+## 1. Opposite Direction
+
+Pointers start from opposite ends.
+
+```js
+left = 0;
+right = nums.length - 1;
+```
+
+Example:
+
+```text
+1 2 3 4 6
+^       ^
+L       R
+```
+
+Move:
+
+- Sum too small → left++
+- Sum too large → right--
+- Sum equal → answer found
+
+### Used For
+
+- Two Sum II (sorted array)
+- Palindrome checking
+- Container With Most Water
+- Reversing arrays
+
+### Template
+
+```js
+let left = 0;
+let right = nums.length - 1;
+
+while (left < right) {
+
+    // process
+
+    if (...) {
+        left++;
+    } else {
+        right--;
+    }
+}
+```
+
+---
+
+## 2. Same Direction (Fast and Slow)
+
+Both pointers move left to right.
+
+```text
+0 1 0 3 12
+S
+F
+```
+
+Fast pointer:
+
+- Scans every element.
+
+Slow pointer:
+
+- Tracks where the next valid element belongs.
+
+### Used For
+
+- Move Zeroes
+- Remove Duplicates
+- Remove Element
+- Partitioning arrays
+
+### Template
+
+```js
+let slow = 0;
+
+for (let fast = 0; fast < nums.length; fast++) {
+  if (condition) {
+    // swap or assign
+
+    slow++;
+  }
+}
+```
+
+---
+
+## 3. Sliding Window
+
+Window grows and shrinks.
+
+```text
+left      right
+  ^         ^
+```
+
+### Used For
+
+- Maximum sum subarray
+- Longest substring without repeating characters
+- Minimum window substring
+
+### Template
+
+```js
+let left = 0;
+
+for (let right = 0; right < nums.length; right++) {
+
+    // expand window
+
+    while (window invalid) {
+        left++;
+    }
+}
+```
+
+---
+
+# Common Variable Names
+
+Different names, same idea:
+
+| Meaning         | Names             |
+| --------------- | ----------------- |
+| Left pointer    | left              |
+| Right pointer   | right             |
+| Fast pointer    | fast, current     |
+| Slow pointer    | slow, lastNonZero |
+| Start of window | left              |
+| End of window   | right             |
+
+Don't memorize names.
+
+Memorize roles.
+
+---
+
+# Move Zeroes Example
+
+Input:
+
+```js
+[0, 1, 0, 3, 12];
+```
+
+Output:
+
+```js
+[1, 3, 12, 0, 0];
+```
+
+```js
+let slow = 0;
+
+for (let fast = 0; fast < nums.length; fast++) {
+  if (nums[fast] !== 0) {
+    [nums[slow], nums[fast]] = [nums[fast], nums[slow]];
+
+    slow++;
+  }
+}
+```
+
+Time: O(n)
+
+Space: O(1)
+
+---
+
+# Opposite Direction Example
+
+```js
+let left = 0;
+let right = nums.length - 1;
+
+while (left < right) {
+  let sum = nums[left] + nums[right];
+
+  if (sum === target) return [left, right];
+
+  if (sum < target) left++;
+  else right--;
+}
+```
+
+Time: O(n)
+
+Space: O(1)
+
+---
+
+# When Should I Think About Two Pointers?
+
+When the problem involves:
+
+✅ Arrays
+
+✅ Strings
+
+✅ Sorted arrays
+
+✅ In-place modifications
+
+✅ Removing duplicates
+
+✅ Moving zeroes
+
+✅ Reversing elements
+
+✅ Finding pairs
+
+✅ Continuous ranges
+
+✅ Sliding windows
+
+---
+
+# Questions Solved Using Two Pointers
+
+Easy:
+
+- Move Zeroes
+- Remove Duplicates from Sorted Array
+- Remove Element
+- Valid Palindrome
+- Reverse String
+- Merge Sorted Array
+- Two Sum II
+
+Medium:
+
+- Container With Most Water
+- 3Sum
+- Sort Colors
+- Longest Substring Without Repeating Characters
+- Minimum Size Subarray Sum
+
+---
+
+# Golden Rule
+
+Ask yourself:
+
+"Can I solve this with two moving indices instead of nested loops?"
+
+If yes, think Two Pointers.
